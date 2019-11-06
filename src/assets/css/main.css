@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.main_box {
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.main_box_head {
+    width: 100%;
+    height: 436px;
+    background-color: #353541;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.writing {
+    width: 545px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 115px;
+
+}
+
+.H1_writing {
+    height: 46px;
+    color: #ffffff;
+    font-family: "Raleway - Semi Bold";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 36.48px;
+
+}
+
+.H2_writing {
+    text-align: center;
+    width: 491px;
+    height: 43px;
+    opacity: 0.75;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.btn_writing {
+    width: 170px;
+    height: 49px;
+    background-color: #fb6470;
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    margin-left: 187.5px;
+}
+
+.btn_writing > p {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36.48px;
+}
+
+.main_box_aboutMe {
+    width: 847px;
+    height: 520px;
+    background-color: #ffffff;
+    margin-top: 93px;
+    margin-left: 95px;
+    display: flex;
+}
+
+.my_description {
+    width: 360px;
+    height: 423px;
+    /*margin-top: 93px;*/
+    margin-left: 19px;
+}
+
+.my_photo {
+    width: 321px;
+    height: 464px;
+    background-color: #353541;
+    margin-top: 56px;
+    margin-left: 56px;
+}
+
+.H1_about {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    color: #3e3e3e;
+    font-family: "Raleway - Semi Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36.48px;
+    position: relative;
+}
+
+.H1_about::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.H1_about:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.description_about {
+    margin-top: 52px;
+    width: 351px;
+    height: 66px;
+    opacity: 0.8;
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.info_about {
+    width: 360px;
+    height: 256px;
+
+}
+
+.info-about-descript {
+    margin-top: 1px;
+    background-color: #f1f2f4;
+    height: 51.2px;
+    display: flex;
+    align-items: center;
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+
+}
+
+.info-about-descript_h1 {
+    font-family: 'Raleway - Semi Bold';
+    font-weight: 400;
+}
+
+.underline {
+    width: 770px;
+    height: 1px;
+    background-color: #000000;
+    opacity: 0.1;
+    margin-top: 84px;
+    margin-left: 95px;
+
+}
+
+.main_box_Education {
+    width: 847px;
+    height: 520px;
+    background-color: #ffffff;
+    margin-top: 84px;
+    margin-left: 95px;
+    display: flex;
+}
+
+.my_description_Education {
+    height: 423px;
+    /*margin-top: 93px;*/
+    margin-left: 19px;
+}
+
+.box1_Story_about_Education {
+    display: flex;
+    width: 100%;
+}
+
+.vertical_line {
+    margin-left: 16.5px;
+    width: 1px;
+    height: 144px;
+    background-color: #353541;
+
+}
+
+.left_box_1 {
+    position: relative;
+    margin-top: 90px;
+    margin-right: 20px;
+}
+
+.right_box_1 {
+    margin-left: 20px;
+    position: relative;
+}
+.box_stepLine {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ball{
+    border-radius: 50%;
+    width: 14px;
+    height: 15px;
+    border: 2px solid #000000;
+    background-color: #fb6470;
+
+}
+
+.around_ball {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 33px;
+    border: 2px solid #000000;
+    background-color: #f9f9f9;
+}
+
+.left_box_1_desc  {
+    position: absolute;
+}

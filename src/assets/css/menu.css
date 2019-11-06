@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.menu_box {
+    width: 275px;
+    height: auto;
+    background-color: #353541;
+    overflow:hidden;
+}
+
+.name_box {
+    width: 275px;
+    height: 221px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.name {
+    width: auto;
+    height: 32px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36.48px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 70px;
+
+}
+.profession {
+    width: auto;
+    height: 16px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36.48px;
+    /* Text style for "U, i/ux" */
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-left: 30px;
+    position: absolute;
+}
+.btn_nav_box{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    background-color: #3f3f58;
+    height: 50px;
+    padding-left: 30px;
+    margin-top: 5px;
+    display: inline-flex; /* keep the inline nature of buttons */
+    align-items: flex-start; /* this is default */
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 62px;
+}
+.btn:hover{
+    transform: scale(1.05);
+}

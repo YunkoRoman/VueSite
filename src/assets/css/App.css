@@ -1,0 +1,9 @@
+@import "Reset.css";
+.box{
+    width: 100%;
+    height: 100%;
+}
+.filling{
+    display: flex;
+    height: 1800px;
+}
