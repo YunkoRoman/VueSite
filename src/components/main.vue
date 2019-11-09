@@ -37,33 +37,95 @@
         <div class="main_box_Education">
             <div class="my_description_Education">
                 <p class="H1_about">Education</p>
-                <div class="box1_Story_about_Education">
+                <div class="box_Story_about_Education">
                     <div class="left_box_1">
-                        <img src="@/assets/img/comment_left.png" alt="">
-                        <div class="left_box_1_desc">sdfsdf</div>
+                        <div>
+                            <img src="@/assets/img/comment_left.png" alt="" class="img">
+                        </div>
+                        <div class="box_desc">
+                            <div class="box_about_educt_left">
+                                <p class="Educ_name">OktenWeb University</p>
+                                <p class="Educ_date"> FEB 2019 - SEP 2019</p>
+                                <p class="Educ_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+                                    animi dolorum </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="box_stepLine">
                         <div class="around_ball"><span class="ball"></span></div>
                         <div class="vertical_line"></div>
                         <div class="around_ball"><span class="ball"></span></div>
                     </div>
-                    <div class="right_box_1"><img src="@/assets/img/comment_right.png" alt=""></div>
+                    <div class="right_box_1">
+                        <div>
+                            <img src="@/assets/img/comment_right.png" alt="" class="img1">
+                        </div>
+                        <div class="box_desc">
+                            <div class="box_about_educt_right">
+                                <p class="Educ_name">Lviv Polytechnic National University</p>
+                                <p class="Educ_date"> sep 2013 - dec 2018</p>
+                                <p class="Educ_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+                                    animi dolorum </p>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
+                <div class="extra_line">
+                    <div class="box_stepLine_next">
+                        <div class="vertical_line_next"></div>
+                    </div>
+                </div>
+                <div class="box_Story_about_Education">
+                    <div class="left_box_1">
+                        <div>
+                            <img src="@/assets/img/comment_left.png" alt="" class="img">
+                        </div>
+                        <div class="box_desc">
+                            <div class="box_about_educt_left">
+                                <p class="Educ_name">OktenWeb University</p>
+                                <p class="Educ_date"> FEB 2019 - SEP 2019</p>
+                                <p class="Educ_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+                                    animi dolorum </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_stepLine">
+                        <div class="around_ball"><span class="ball"></span></div>
+                        <div class="vertical_line"></div>
+                        <div class="around_ball"><span class="ball"></span></div>
+                    </div>
+                    <div class="right_box_1">
+                        <div>
+                            <img src="@/assets/img/comment_right.png" alt="" class="img1">
+                        </div>
+                        <div class="box_desc">
+                            <div class="box_about_educt_right">
+                                <p class="Educ_name">Lviv Polytechnic National University</p>
+                                <p class="Educ_date"> sep 2013 - dec 2018</p>
+                                <p class="Educ_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+                                    animi dolorum </p>
+                            </div>
+                        </div>
+                    </div>
 
-
+                </div>
             </div>
-
         </div>
+
+        <skill_bar></skill_bar>
     </div>
 </template>
 
 <script>
     import underline from './underline'
-
+    import skill_bar from './skill_bar'
     export default {
         name: "main",
-        components: {underline},
+        components: {
+            underline,
+            skill_bar
+        },
 
     }
 </script>

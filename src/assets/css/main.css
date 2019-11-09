@@ -2,6 +2,7 @@
 
 .main_box {
     width: 100%;
+    height: 100%;
     background-color: #ffffff;
 
 }
@@ -25,9 +26,10 @@
 }
 
 .H1_writing {
+    width: 650px;
     height: 46px;
     color: #ffffff;
-    font-family: "Raleway - Semi Bold";
+    font-family: Raleway;
     font-size: 48px;
     font-weight: 400;
     line-height: 36.48px;
@@ -94,7 +96,7 @@
     width: auto;
     height: 50px;
     color: #3e3e3e;
-    font-family: "Raleway - Semi Bold";
+    font-family: Raleway;
     font-size: 32px;
     font-weight: 400;
     line-height: 36.48px;
@@ -152,7 +154,7 @@
 }
 
 .info-about-descript_h1 {
-    font-family: 'Raleway - Semi Bold';
+    font-family: Raleway;
     font-weight: 400;
 }
 
@@ -168,26 +170,26 @@
 
 .main_box_Education {
     width: 847px;
-    height: 520px;
+    height: auto;
     background-color: #ffffff;
     margin-top: 84px;
     margin-left: 95px;
     display: flex;
+    flex-direction: column;
 }
 
 .my_description_Education {
-    height: 423px;
-    /*margin-top: 93px;*/
+    height: auto;
     margin-left: 19px;
+
 }
 
-.box1_Story_about_Education {
+.box_Story_about_Education {
     display: flex;
-    width: 100%;
 }
 
 .vertical_line {
-    margin-left: 16.5px;
+    margin-left: 19px;
     width: 1px;
     height: 144px;
     background-color: #353541;
@@ -195,16 +197,22 @@
 }
 
 .left_box_1 {
+    width: 339px;
+    height: 132px;
     position: relative;
     margin-top: 90px;
     margin-right: 20px;
+    display: flex;
 }
 
 .right_box_1 {
+    display: flex;
     margin-left: 20px;
     position: relative;
 }
 .box_stepLine {
+    width: 40px;
+    height: 222px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -224,12 +232,76 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    width: 32px;
-    height: 33px;
+    width: 36px;
+    height: 37px;
     border: 2px solid #000000;
     background-color: #f9f9f9;
 }
 
-.left_box_1_desc  {
+.box_desc  {
     position: absolute;
+    display: inline-block;
+}
+.img1{
+    /*position: absolute;*/
+}
+
+.Educ_name {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.box_about_educt_left {
+    margin-left: 17px ;
+    margin-top: 16px;
+}
+
+.Educ_date {
+
+    color: #fb6470;
+    font-family: Raleway;
+    margin-top: 9px;
+    text-transform: uppercase;
+}
+
+.Educ_desc {
+    /*width: 277px;*/
+    /*height: 34px;*/
+    margin-top: 5px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.box_about_educt_right {
+    margin-left: 41px;
+    margin-top: 16px;
+}
+
+
+
+.no_around_ball {
+    width: 36px;
+    height: 37px;
+}
+
+.extra_line {
+
+}
+.vertical_line_next {
+    margin-left: 19px;
+    width: 1px;
+    height: 100px;
+    background-color: #353541;
+
+}
+
+.box_stepLine_next {
+    margin-left: 360px;
 }

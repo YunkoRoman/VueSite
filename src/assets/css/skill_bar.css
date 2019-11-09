@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.general_skill_bar_box {
+    background-color: #000000;
+    margin-top: 80px;
+
+}
+.skill_bar_box {
+    width: 847px;
+    height: 428px;
+    margin-left: 114px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.H1_skill {
+    margin-top: 84px;
+    width: 135px;
+    height: 50px;
+    color: #ffffff;
+    font-family: Raleway ;
+    font-size: 32px;
+    /*font-weight: 400;*/
+    line-height: 36.48px;
+    position: relative;
+}
+
+.H1_skill::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.H1_skill:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.skill_bar {
+    width: 850px;
+    height: 195px;
+    border: 1px solid red;
+    margin-top: 55px;
+    display: flex;
+}
+
+#title_HTML {
+    width: 137px;
+    height: 18px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31.19px;
+    margin-bottom: 19px;
+}
+
+.HTML_graph {
+    margin-top: 5px;
+    width: 265px;
+    height: 5px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    display: flex;
+}
+
+.rate {
+    margin-left: 5px;
+    width: 27px;
+    height: 13px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.HTML_graph_box {
+    display: flex;
+    position: relative;
+
+}
+
+.HTML_graph_line {
+    display: flex;
+    width: 70%;
+    background-color: #fb6470;
+    height: 100%;
+    position: relative;
+}
+
+.graph_radio {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #fb6470;
+    margin-left: 110%;
+    position: absolute;
+}
+
+#title_CSS {
+    width: 137px;
+    height: 18px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31.19px;
+    margin-bottom: 19px;
+}
+
+#title_JS {
+    width: 137px;
+    height: 18px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31.19px;
+    margin-bottom: 19px;
+}
