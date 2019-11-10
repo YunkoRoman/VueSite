@@ -55,3 +55,9 @@ button {
       считают, что необходимо оставлять стрелочный вид для кнопок */
     cursor: pointer;
 }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}

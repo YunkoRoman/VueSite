@@ -1,6 +1,5 @@
 .general_box {
-    height: 386px;
-    border: 1px solid red;
+    height: auto;
 }
 
 .communication_box {
@@ -75,4 +74,69 @@ input{
     background-color: #000000;
     opacity: 0.2;
     margin-left: 78px ;
+}
+
+.other_info {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 54px;
+}
+
+.Location_box {
+    display: flex;
+    margin-bottom: 57px;
+}
+.location_img {
+    margin-top: 10px;
+    width: 32px;
+    height: 32px;
+    background-image: url("../../assets/img/Home.png");
+}
+.desc_box{
+    margin-left: 46px;
+}
+
+.info_name {
+    margin-bottom: 23px;
+    width: 71px;
+    height: 15px;
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.info_desc {
+    width: 258px;
+    height: 15px;
+    opacity: 0.8;
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Email_box {
+    display: flex;
+    margin-bottom: 57px;
+}
+
+.Email_img {
+    margin-top: 10px;
+    width: 32px;
+    height: 32px;
+    background-image: url("../../assets/img/Mail_2.png");
+}
+
+.Phone_box {
+    display: flex;
+}
+
+.Phone_img {
+    margin-top: 10px;
+    width: 32px;
+    height: 32px;
+    background-image: url("../../assets/img/Phone.png");
 }

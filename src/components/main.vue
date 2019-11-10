@@ -114,6 +114,9 @@
         </div>
         <skill_bar></skill_bar>
         <message_form></message_form>
+        <underline></underline>
+        <footers></footers>
+
     </div>
 </template>
 
@@ -121,12 +124,14 @@
     import underline from './underline'
     import skill_bar from './skill_bar'
     import message_form from './message_form'
+    import footers from './footer'
     export default {
         name: "main",
         components: {
             underline,
             skill_bar,
-            message_form
+            message_form,
+            footers
         },
 
     }

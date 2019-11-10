@@ -4,7 +4,7 @@
     width: 275px;
     height: auto;
     background-color: #353541;
-    overflow:hidden;
+
 }
 
 .name_box {
@@ -46,6 +46,7 @@
 .btn_nav_box{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .btn{
     background-color: #3f3f58;

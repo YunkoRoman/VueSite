@@ -12,11 +12,13 @@
     import menu from './components/menu'
     import main from './components/main'
 
+
     export default {
 
         components: {
             'Menu':menu,
-            'Main':main
+            'Main':main,
+
         }
     }
 </script>

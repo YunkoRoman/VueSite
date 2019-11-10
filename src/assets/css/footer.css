@@ -1,0 +1,26 @@
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.facebook {
+    margin-right: 25px;
+    background-image: url("../../assets/img/icons-facebook.png");
+    width: 32px;
+    height: 32px;
+}
+
+.skype {
+    background-image: url("../../assets/img/icon-skype.png");
+    width: 32px;
+    height: 32px;
+}
+
+.linkedin {
+    margin-left: 25px;
+    background-image: url("../../assets/img/icon-linkedin.png");
+    width: 32px;
+    height: 32px;
+}
