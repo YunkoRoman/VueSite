@@ -112,19 +112,21 @@
                 </div>
             </div>
         </div>
-
         <skill_bar></skill_bar>
+        <message_form></message_form>
     </div>
 </template>
 
 <script>
     import underline from './underline'
     import skill_bar from './skill_bar'
+    import message_form from './message_form'
     export default {
         name: "main",
         components: {
             underline,
-            skill_bar
+            skill_bar,
+            message_form
         },
 
     }

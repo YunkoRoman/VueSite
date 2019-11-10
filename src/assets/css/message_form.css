@@ -1,0 +1,78 @@
+.general_box {
+    height: 386px;
+    border: 1px solid red;
+}
+
+.communication_box {
+    width: 847px;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 84px;
+    margin-left: 95px;
+    display: flex;
+
+}
+
+.h1_write {
+    width: 177px;
+    height: 21px;
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.form_box {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+input{
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+}
+.name_inp {
+    width: 265px;
+    height: 35px;
+    margin-bottom: 21px;
+}
+
+.message_inp {
+    margin-bottom: 21px;
+    width: 265px;
+    height: 95px;
+    resize: none;
+    color: #3e3e3e;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.button_inp {
+    margin-left: 151.2px;
+    width: 120px;
+    height: 35px;
+    background-color: #fb6470;
+    padding: 0;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.transverse_line {
+    margin-top: 35px;
+    width: 1px;
+    height: 250px;
+    background-color: #000000;
+    opacity: 0.2;
+    margin-left: 78px ;
+}

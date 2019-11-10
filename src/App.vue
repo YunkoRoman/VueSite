@@ -1,8 +1,8 @@
 <template>
     <div class="box">
         <div class="filling">
-            <Menu></Menu>
-            <Main></Main>
+            <Menu class="menu"></Menu>
+            <Main class="main"></Main>
         </div>
     </div>
 
