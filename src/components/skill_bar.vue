@@ -1,5 +1,6 @@
 <template>
     <div class="general_skill_bar_box">
+        <a id="skills"></a>
         <div class="skill_bar_box">
             <p class="H1_skill">My Skills</p>
             <div class="skill_bar">

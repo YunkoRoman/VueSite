@@ -1,5 +1,6 @@
 <template>
     <div class="general_box">
+        <a id="contacts"></a>
         <div class="communication_box">
             <div class="form_for_leave_message">
                 <p class="h1_write">Leave a Message</p>

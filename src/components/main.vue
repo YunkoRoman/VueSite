@@ -1,6 +1,7 @@
 <template>
     <div class="main_box">
         <div class="main_box_head">
+            <a id="home"></a>
             <img src="@/assets/img/Layer_1.png" alt="" width="100%" height="100%">
             <div class="writing">
                 <p class="H1_writing">Lets Make Something Great</p>
@@ -13,7 +14,8 @@
                 </button>
             </div>
         </div>
-        <div class="main_box_aboutMe">
+        <div class="main_box_aboutMe" >
+            <div id="aboutMe"></div>
             <div class="my_description">
                 <p class="H1_about">About Me</p>
                 <p class="description_about"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus,
@@ -35,6 +37,7 @@
         </div>
         <underline></underline>
         <div class="main_box_Education">
+            <a id="education"></a>
             <div class="my_description_Education">
                 <p class="H1_about">Education</p>
                 <div class="box_Story_about_Education">

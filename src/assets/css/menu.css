@@ -44,23 +44,30 @@
     position: absolute;
 }
 .btn_nav_box{
+    width: 275px;
+    position: fixed;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
 .btn{
+
     background-color: #3f3f58;
     height: 50px;
-    padding-left: 30px;
     margin-top: 5px;
-    display: inline-flex; /* keep the inline nature of buttons */
-    align-items: flex-start; /* this is default */
+    display: flex; /* keep the inline nature of buttons */
+    align-items: center;
+
+
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.btn_name {
+    margin-left: 30px;
     color: #ffffff;
     font-family: Raleway;
     font-size: 22px;
     font-weight: 500;
-    line-height: 62px;
-}
-.btn:hover{
-    transform: scale(1.05);
 }
